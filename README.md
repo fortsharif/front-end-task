@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Front-end UI for the API task, back-end can be found https://github.com/fortsharif/API-Task . Make sure the back-end is running before running this client.
 
 ## Available Scripts
 

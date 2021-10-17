@@ -80,7 +80,7 @@ const Users = (props) => {
                                 </ListGroup>
                                 <Button variant="primary" onClick={() => { handleDelete(user.Id) }}>Delete</Button>
                             </Card.Body>
-                            <Card.Footer className="text-muted">{<Card.Text> Created on {user.Created} </Card.Text>}</Card.Footer>
+
                             <Form onSubmit={(e) => { handleSubmit(e, user.Id) }}>
                                 <Form.Group className="mb-3" controlId="formBasicText">
                                     <Form.Label>New Email: </Form.Label>
@@ -90,7 +90,7 @@ const Users = (props) => {
                                     Update
                                 </Button>
 
-
+                                <Card.Footer className="text-muted">{<Card.Text> Created on {user.Created} </Card.Text>}</Card.Footer>
                             </Form>
                         </Card>
                     </Col>
